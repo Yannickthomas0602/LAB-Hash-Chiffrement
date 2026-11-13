@@ -1,6 +1,6 @@
 # Sauvegarde WordPress chiffrée
 
-Ce dossier contient deux scripts Bash pour sauvegarder et vérifier une installation
+Ce dossier contient deux scripts Bash pour sauvegarder et vérifier la restoration d'un site
 WordPress située dans `/var/www`.
 
 ## Fichiers
