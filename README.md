@@ -15,32 +15,4 @@ WordPress située dans `/var/www`.
   compare l’empreinte de la restauration avec l’empreinte initiale.
 - `wordpress_20261113_020000.json` : exemple du fichier JSON de métadonnées
   généré par `backup.sh`. Il contient l’identifiant, la date, les chemins et les
-  empreintes de contrôle de la sauvegarde. Ce fichier est un exemple et ne
-  constitue pas, à lui seul, une sauvegarde complète.
-
-## Utilisation
-
-Les scripts sont prévus pour être exécutés sur Linux avec Bash et les outils
-`tar`, `gzip`, `openssl`, `age`, `jq`, `ssh` et `scp`.
-
-Pour lancer une sauvegarde :
-
-```bash
-sudo bash backup.sh
-```
-
-Pour vérifier et restaurer une sauvegarde sur la machine distante :
-
-```bash
-bash verify_restore.sh wordpress_YYYYMMDD_HHMMSS
-```
-
-La restauration est créée dans :
-
-```text
-/srv/wordpress-backups/restore/<BACKUP_ID>/
-```
-
-Les paramètres réseau, les chemins, les clés SSH et les emplacements de
-stockage sont définis au début de chaque script et doivent être adaptés à
-l’environnement utilisé.
+  empreintes de contrôle de la sauvegarde. 
