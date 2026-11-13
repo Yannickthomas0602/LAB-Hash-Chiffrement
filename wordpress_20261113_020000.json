@@ -1,0 +1,21 @@
+
+{
+  "backup_id": "wordpress_20261113_020000",
+
+  "timestamp": "2026-11-13T02:00:00Z",
+
+  "source_path": "/var/www",
+
+  "hash_algorithm": "SHA-256",
+
+  "hash_initial": "a83f7d92e6b4c18a5f9012d3e4b67890cdef1234567890abcdef1234567890ab",
+
+  "encrypted_archive": {
+    "filename": "wordpress_20261113_020000.tar.gz.enc",
+    "hash": "b74e8c91d5a3f2076b8e4c1d9a2f5630abcdef1234567890abcdef1234567890"
+  },
+
+  "encryption": "AES-256-CBC-PBKDF2",
+
+  "key_filename": "aes.key.age"
+}
